@@ -12,7 +12,7 @@ Install to `/usr/local/ferret`
 include ::ferret
 ```
 
-Customise
+### Class ferret
 
 ```Puppet
 class {'ferret':
