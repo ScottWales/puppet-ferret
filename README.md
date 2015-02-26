@@ -1,8 +1,10 @@
-= Puppet Ferret =
+Puppet Ferret
+=============
 
 Installs NOAA's [Ferret](http://ferret.pmel.noaa.gov/Ferret) visualisation tool
 
-== Usage ==
+Usage
+-----
 
 Install to `/usr/local/ferret`
 
@@ -15,7 +17,8 @@ Customise
       manage_dependencies => false               # Install libX11
     }
 
-== Developing ==
+Developing
+----------
 
 The development tools make use of [bundler](http://bundler.io/)
 
