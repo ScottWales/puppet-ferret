@@ -1,6 +1,19 @@
 = Puppet Ferret =
 
-Installs [Ferret](http://ferret.pmel.noaa.gov/Ferret)
+Installs NOAA's [Ferret](http://ferret.pmel.noaa.gov/Ferret) visualisation tool
+
+== Usage ==
+
+Install to `/usr/local/ferret`
+
+    include ::ferret
+
+Customise
+
+    class {'ferret':
+      install_path        => '/usr/local/ferret' # Path to install Ferret
+      manage_dependencies => false               # Install libX11
+    }
 
 == Developing ==
 
